@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>お問い合わせ | NekoCreate</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="NekoCreateのお問い合わせページ" />
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<link rel="stylesheet" href="style.css">
+	<!-- BootstrapのCSS読み込み -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!-- jQuery読み込み -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- BootstrapのJS読み込み -->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<h1 class="h6">お問い合わせ</h1>
+	<h2 class="h1 titlecenter">NekoCreate</h2>
+
+	<div class="container">
+
+		<header>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">HOME</a>
+					</div>
+					<div class="collapse navbar-collapse" id="site-menu">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+									アプリ
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="messageboard.html">メッセージボード</a></li>
+									<li><a href="twitterclone.html">Twitterクローン</a></li>
+									<li><a href="monolist.html">モノリスト</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+									オリジナルサービス
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="olddomain.html">期限切れドメイン情報</a></li>
+									<!-- <li><a href="#"></a></li> -->
+								</ul>
+							</li>
+							<li><a href="https://github.com/nekocreate" target="_blank">GitHub</a></li>
+							<li class="active"><a href="contact.html">お問い合わせ</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+
+		<section>
+
+<!--			<h2><u>期限切れドメイン情報</u></h2>-->
+
+			<!-- panels -->
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+						お問い合わせについて
+					</h3>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<!-- サムネイル -->
+						<div class="col-md-3">
+							<!-- <img src="img/free-domain-name.png" alt="" class="thumb" /> -->
+<div class="otoiawase-icon">
+<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+</div>
+
+
+
+						</div>
+						<!-- 概要 -->
+						<div class="col-md-9">
+							<p>NecoCreateへのお問い合わせは下記のフォームよりお願いします。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<form action="" method="post">
+				<!-- text -->
+				<div class="form-group">
+					<label for="name">名前</label>
+					<input type="text" class="form-control" id="name" name="namae" placeholder="氏 名">
+				</div>
+				<div class="form-group">
+					<label for="email">メールアドレス</label>
+					<input type="text" class="form-control" id="email" name="emailaddress" placeholder="abcd@efg.com">
+				</div>
+
+				<!-- textarea -->
+				<div class="form-group">
+					<label for="otoiawasenaiyou" class="col-sm-2 control-label">お問い合わせ内容</label>
+					<div class="col-sm-10">
+						<textarea class="form-control" id="otoiawasenaiyou" name="honbun" rows="8" placeholder="何かございましたらご記入下さい。"></textarea>
+					</div>
+				</div>
+<br /><br />
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<button type="submit" class="btn btn-default btn-success btn-block">送信する</button>
+					</div>
+				</div>
+			</form>
+
+		</section>
+	</div>
+
+	<footer>
+		<div class="copyright">&copy; 2015 NekoCreate All Rights Reserved.</div>
+	</footer>
+
+</body>
+</html>
+

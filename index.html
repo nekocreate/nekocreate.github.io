@@ -1,15 +1,210 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
-    <h1>Hello, world!!</h1>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NekoCreate</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="プログラミンを勉強しているNekoCreateと申します。Ruby on Railsを基礎から学びながらいくつかのWEBアプリを作りました。" />
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<link rel="stylesheet" href="style.css">
+	<!-- BootstrapのCSS読み込み -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!-- jQuery読み込み -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- BootstrapのJS読み込み -->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<h1 class="titlecenter">NekoCreate</h1>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </body>
+	<div class="container">
+
+		<header>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">HOME</a>
+					</div>
+					<div class="collapse navbar-collapse" id="site-menu">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+									アプリ
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="messageboard.html">メッセージボード</a></li>
+									<li><a href="twitterclone.html">Twitterクローン</a></li>
+									<li><a href="monolist.html">モノリスト</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+									オリジナルサービス
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="olddomain.html">期限切れドメイン情報</a></li>
+									<!-- <li><a href="#"></a></li> -->
+								</ul>
+							</li>
+							<li><a href="https://github.com/nekocreate" target="_blank">GitHub</a></li>
+							<li class="active"><a href="contact.html">お問い合わせ</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+
+		<section>
+			<!-- panels -->
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h2 class="panel-title">
+						<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+						自己紹介
+					</h2>
+				</div>
+				<div class="panel-body">
+				
+					<div id="prof">
+						<img src="img/profile.jpg" width="80" />
+					
+						<p>ハンドルネーム「NekoCreate」と申します。<br />なぜこの名前に決めたのかというと、とにかく猫が大好きなのです。<br />
+					プログラミング経験というほどでもありませんが、仕事がアフィリエイトですので、ExcelVBAやUWSC、ネットで拾ってきたPHPソースなどを組み合わせて、仕事に活かしておりました。<br />
+					現在は、Ruby on Railsの勉強に励んでおります。<br />
+					人に喜ばれるような便利なサービスを作れるようになりたいです。</p>
+					</div>
+
+					<h3 class="h4">プロフィール</h3>
+					<ul style="list-style: none;">
+						<li>ハンドルネーム：NekoCreate</li>
+						<li>生年月日：1974年9月20日</li>
+						<li>年齢：41歳</li>
+						<li>住んでいるところ：北陸富山県の田舎町</li>
+						<li>職業：アフィリエイター</li>
+					</ul>
+				</div>
+			</div>
+
+
+			<h2><u>課題で作ったWebアプリ</u></h2>
+
+			<!-- panels -->
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+						メッセージボード
+					</h3>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<!-- サムネイル -->
+						<div class="col-md-3">
+							<img src="img/messageboard.jpg" alt="" class="thumb" />
+						</div>
+						<!-- 概要 -->
+						<div class="col-md-9">
+							<p>伝言を残せるメッセージボードアプリケーションです。</p>
+							<p>あああああああああああああああああああああああああああああああああああああああああああああ</p>
+							<p class="center"><a href="messageboard.html"><button type="button" class="btn btn-primary">メッセージボードの詳細はこちら</button></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- panels -->
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+						Twitterクローン
+					</h3>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<!-- サムネイル -->
+						<div class="col-md-3">
+							<img src="img/twitter_icon.png" alt="" class="thumb" />
+						</div>
+						<!-- 概要 -->
+						<div class="col-md-9">
+							<p>Twitterと同じような機能を持ったWebアプリケーションです。</p>
+							<p>あああああああああああああああああああああああああああああああああああああああああああああ</p>
+							<p class="center"><a href="twitterclone.html"><button type="button" class="btn btn-primary">Twitterクローンの詳細はこちら</button></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- panels -->
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+						モノリスト
+					</h3>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<!-- サムネイル -->
+						<div class="col-md-3">
+							<img src="img/monolist.jpg" alt="" class="thumb" />
+						</div>
+						<!-- 概要 -->
+						<div class="col-md-9">
+							<p>Amazonで好きな商品を検索し、自分が持っているもの・欲しいものを共有できるサービスです。</p>
+							<p>あああああああああああああああああああああああああああああああああああああああああああああ</p>
+							<p class="center"><a href="monolist.html"><button type="button" class="btn btn-primary">モノリストの詳細はこちら</button></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- panels -->
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+						オリジナルサービス
+					</h3>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<!-- サムネイル -->
+						<div class="col-md-3">
+							<img src="img/free-domain-name.png" alt="" class="thumb" />
+						</div>
+						<!-- 概要 -->
+						<div class="col-md-9">
+							<p>あああああああああああああああああああああああああああああああああああああああああああああ</p>
+							<p>あああああああああああああああああああああああああああああああああああああああああああああ</p>
+							<p class="center"><a href="olddomain.html"><button type="button" class="btn btn-primary">オリジナルサービスの詳細はこちら</button></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+	</div>
+
+	<footer>
+		<div class="copyright">&copy; 2015 NekoCreate All Rights Reserved.</div>
+	</footer>
+
+</body>
 </html>
+

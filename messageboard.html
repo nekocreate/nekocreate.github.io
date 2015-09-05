@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>メッセージボード | NekoCreate</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="Ruby on Railsでメッセージボードを作りました。" />
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<link rel="stylesheet" href="style.css">
+	<!-- BootstrapのCSS読み込み -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!-- jQuery読み込み -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- BootstrapのJS読み込み -->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<h1 class="h6">メッセージボード</h1>
+	<h2 class="h1 titlecenter">NekoCreate</h2>
+
+	<div class="container">
+
+		<header>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">HOME</a>
+					</div>
+					<div class="collapse navbar-collapse" id="site-menu">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+									アプリ
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="messageboard.html">メッセージボード</a></li>
+									<li><a href="twitterclone.html">Twitterクローン</a></li>
+									<li><a href="monolist.html">モノリスト</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+									オリジナルサービス
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="olddomain.html">期限切れドメイン情報</a></li>
+									<!-- <li><a href="#"></a></li> -->
+								</ul>
+							</li>
+							<li><a href="https://github.com/nekocreate" target="_blank">GitHub</a></li>
+							<li class="active"><a href="contact.html">お問い合わせ</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+
+		<section>
+
+			<h2><u>メッセージボード</u></h2>
+
+			<!-- panels -->
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+						メッセージボード
+					</h3>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<!-- サムネイル -->
+						<div class="col-md-3">
+							<img src="img/messageboard.jpg" alt="" class="thumb" />
+						</div>
+						<!-- 概要 -->
+						<div class="col-md-9">
+							<p>伝言を残せるメッセージボードアプリケーションです。</p>
+							<p>あああああああああああああああああああああああああああああああああああああああああああああ</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+	</div>
+
+	<footer>
+		<div class="copyright">&copy; 2015 NekoCreate All Rights Reserved.</div>
+	</footer>
+
+</body>
+</html>
+
